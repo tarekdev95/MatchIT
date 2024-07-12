@@ -79,6 +79,7 @@ def remove_matches(matched_candies):
     for row, col in matched_candies:
         board[row][col] = ""
         score += 30
+        print(f"  le score est {score}")
 
 # fonction pour remplir les vide aléatoirement 
 def refill_board():
